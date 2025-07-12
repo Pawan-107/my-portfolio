@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1><marquee behavior="scroll" direction="right">WELCOME</marquee></h1>
+        <nav>
+         <div><a href="home.html">HOME</a>      <a href="bio.html">BIO</a>      <a href="skills.html">SKILLS</a>      <a href="contact.html" style="color: #0090ff;">CONTACT US</a></div>
+            
+        </nav>
+        <div id="bg"></div>
+    <div id="transparent"></div>
+   <form id="formbox">
+    <h1 id="cuh1">Form</h1>
+    <div class="sec">
+        <div id="name">
+            <label for="Username">Username: </label>
+            <input type="text" name="Username" placeholder="   Type here.........." class="textinp">
+        </div>
+        <div id="password">
+            <label for="Password">password: </label>
+            <input type="password" name="Password" class="textinp">
+        </div>
+    </div>
+    <div class="sec">
+        <div id="gender">
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender" value="male" style="margin-left: 5px; accent-color: #0f5b83;">
+            <label for="male" class="genlab">Male</label>
+            <input type="radio" name="gender" value="female" style="margin-left: 5px; accent-color: #e2798c;">
+            <label for="female" class="genlab">Female</label>
+        </div>
+        <div id="city">
+            <label for="city">City: </label>
+            <select name="city" id="city">
+                <option value="Ludhiana">Ludhiana</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Nainital">Nainital</option>
+                <option value="Almora">Almora</option>
+                <option value="Patna">Patna</option>
+                <option value="Samastipur">Samastipur</option>
+            </select>
+        </div>
+    </div>
+    <div class="sec" id="lowersec">
+        <div id="hobby">
+            <label for="hobby">Hobby: </label>
+            <span><input type="checkbox" value="singing">
+            <label for="singing">Singing</label></span>
+            <span><input type="checkbox" value="dancing">
+            <label for="dancing">Dancing</label></span>
+            <span><input type="checkbox" value="painting">
+            <label for="painting">Painting</label>
+        </div>
+        <div id="additional">
+            <label for="additonalinfo">Additional Information: </label>
+            <textarea name="additonalinfo" id="addinfo" rows="7" cols="5" placeholder="Info........" class="textinp"></textarea>
+        </div>
+    </div>
+    
+    <div class="sec" id="finalsec">
+        <input type="reset" name="reset" value="reset" id="reset">
+        <input type="submit" name="submit" value="submit" id="submit">
+    </div>
+   </form>
+   <footer>
+        <p>© 2023 Pawan Singh Rautela</p>
+   <div><a class="soclink" id="google" href="https://www.resource.42web.io"><img src="images/Google.webp" alt=""><b>GOOGLE</b></a>
+   <a class="soclink" id="linkedin" href="https://www.linkedin.com/in/pawan-rautela-a7a69931a/"><img src="images/linkedin.png" alt=""><b>LINKEDIN</b></a>
+    <a class="soclink" id="github" href="https://www.resource.42web.io"><img src="images/github.webp" alt=""><b>GITHUB</b></a></div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,333 @@
+*{
+            margin: 0px;
+            padding: 0px;
+        }
+        h1{
+            display: flex;
+            background-color: black;
+            color: white;
+            height: 95px;
+            justify-content: center;
+            align-items: center;
+        }
+        nav{
+            position: sticky;
+            top: 0px;
+            z-index: 3;
+            padding: 13px;
+            display: flex;
+            justify-content: center;
+            background-color: black;
+        }
+        nav div{
+            width: 1200px;
+            display: grid;
+            justify-items: center;
+            gap: 10px;
+            padding: 10px 0px;
+            grid-auto-flow: column;
+            border-radius: 23px;
+            background-color: white;
+            text-decoration: none;
+        }
+        nav div a{
+            text-decoration: none;
+            font-weight: 800;
+            color: #4f504f;
+        }
+        nav div a:hover{
+            transform: scale(1.2);
+            color: #000e0c;
+        }
+        #bg{
+            background-image: url("images/bg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position:fixed;
+            top: 0px;
+            width:100vw;
+            height: 100vh;
+            z-index: -2;
+        }
+        #transparent{
+            position: fixed;
+            top: 0;
+            width:100vw;
+            height: 100vh;
+            background-color: rgba(12, 16, 24, 0.5);
+            z-index: -1;
+        }
+
+        /* HOME */
+        #hh2{
+            background-color: rgb(0,0,0,0);
+            backdrop-filter: none;
+            border: 0px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+            margin: 0px;
+            margin-top: 34px;
+            font-style: italic;
+            font-size: 73px;
+        }
+        #intro{
+            width: 90vw;
+            margin: 53px auto;
+            color: white;
+            font-size: large;
+            font-family: Arial, sans-serif;
+            line-height: 37px;
+            letter-spacing: 1px;
+        }
+
+        /* BIO */
+        #main{
+            width: 47vw;
+            margin: 50px auto;
+            display: flex;
+            border: 2px solid;
+            flex-direction: row;
+            gap: 60px;
+            justify-content: center;
+            background-color: white;
+            border-radius: 13px;
+            padding: 20px ;
+            text-align: center;
+            font-size: 29px;
+            color: black;
+        }
+        #main div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+            font-size: 20px;
+            color: #6868ad;
+        }
+        h2{
+            background-color: rgb(255, 255, 255, 0.3);
+            backdrop-filter: blur(3px);
+            width: 86%;
+            border: solid;
+            border-radius: 23px;
+            font-style: italic;
+            color: rgb(0, 0, 0);
+            margin-left: 7%;
+            margin-top: 94px;
+            text-align: center;
+            font-size: 40px;
+        }
+        ol{
+            padding-top: 27px;
+            display: flex;
+            flex-direction: column;
+            padding-left: 189px;
+            list-style:decimal;
+            color: white;
+        }
+        ul{
+            padding-top: 27px;
+            display: flex;
+            flex-direction: column;
+            padding-left: 189px;
+            list-style:disc;
+            color: white;
+        }
+        li{
+            font-size: 24px;
+            line-height: 43px;
+        }
+        
+        /* SKILLS */
+        .sh2{
+            padding-left: 12px;
+            text-align: left;
+            background-color: #00000075;
+            backdrop-filter: none;
+            font-family:  'Times New Roman', Times, serif;
+            color: rgb(255, 255, 255);
+            border: solid white;
+            margin-left: 48px;
+            margin-top: 54px;
+            font-style: normal;
+            font-size: 44px;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 34px 0px;
+            margin-top: 26px;
+            gap: 23px;
+        }
+        .cards{
+            border: solid white;
+            border-radius: 12px;
+            background-color: rgb(255, 255, 255, 0.3);
+            backdrop-filter: blur(3px);
+            display: flex;
+            flex-direction: row;
+            width: 44%;
+            padding: 12px;
+        }
+        .cards:hover{
+            border: solid #0487ff;
+        }
+        .cards img{
+            width: 280px;
+            height: 141px;
+            border-radius: 23px;
+        }
+        .upper{
+            padding-left: 31px;
+            font-size: 24px;
+            color: white;
+            margin: 8px 0px;
+        }
+        .lower{
+            padding-left: 31px;
+            font-size: 15.8px;
+        }
+
+        /* CONTACT US */
+        #formbox{
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: large;
+            margin-top: 45px;
+            width: 50%;
+            margin-left: 25%;
+            background-color: rgb(77, 77, 77, 0.3);
+            backdrop-filter: blur(3px);
+            border: solid white 1px;
+            border-radius: 23px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        #cuh1{
+            background-color: rgb(0,0,0,0);
+        }
+        #formbox div div{
+            width: 279px;
+        }
+        .textinp{
+            padding: 3px;
+            background-color: rgb(0,0,0,0.3);
+            border: solid white 1px;
+            border-radius: 4px;
+        }
+        .textinp:focus{
+            border: solid #00aaff 1px;
+            outline: none;
+        }
+        .sec{
+            margin-top: 23px;
+            display: flex;
+            justify-content: center;
+            gap: 13%;
+            margin-bottom: 23px;
+        }
+        .genlab{
+            color: rgb(56,56,56);
+        }
+        .genlab:hover{
+            color: black;
+        }
+        #hobby{
+            display: flex;
+            flex-direction: column;
+        }
+        #hobby span{
+            margin-top: 13px;
+            margin-left: 46px;
+            color: rgb(56, 56, 56);
+            accent-color: #02375d;
+        }
+        #hobby span:hover{
+            color: black;
+        }
+        #city select:focus{
+            border: solid blue 2px;
+        }
+        #additional{
+            display: flex;
+            flex-direction: column;
+        }
+        #additional label{
+            text-align: center;
+            margin-bottom: 6px;
+        }
+        #finalsec input{
+            padding: 9px;
+            border-radius: 4px;
+            width: 124px;
+        }
+        #reset{
+            background-color: #ff00005c;
+        }
+        #reset:hover{
+            background-color: #ff0000b5;
+        }
+        #submit{
+            background-color: #0080005c;
+        }
+        #submit:hover{
+            background-color: #008000b5;
+        }
+
+
+        /* footer */
+        footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 63px;
+            gap: 23px;
+            margin-bottom: 46px;
+        }
+        footer p{
+            color: white;
+            text-align: center;
+            font-size: medium;
+        }
+        footer div{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 34px;
+        }
+        .soclink{
+            border: 2px solid black;
+            border-radius: 23px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 23px;
+            padding: 7px 19px;
+            width: 153px;
+            background-color: white;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 17px;
+        }
+        .soclink:hover{
+            background-color: #525252;
+            color: white;
+        }
+        .soclink img{
+            width: 50px;
+            height: 50px;
+        }
+        #linkedin{
+            background-color: #00a8ff;
+        }
+        #linkedin:hover{
+            background-color: #0077b5;
+            color: white;
+        }
+        #github img{
+            border-radius: 12px;
+        }
