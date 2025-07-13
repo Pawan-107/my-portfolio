@@ -41,6 +41,7 @@
         }
         #bg{
             background-image: url("images/bg.jpg");
+            /* background-image: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?cs=srgb&dl=pexels-jplenio-1103970.jpg&fm=jpg"); */
             background-repeat: no-repeat;
             background-size: cover;
             position:fixed;
@@ -229,6 +230,13 @@
             gap: 13%;
             margin-bottom: 23px;
         }
+        #gender{
+            width: 278.8px;
+        }
+        #gender pre{
+            display: inline;
+            margin-left: 5px;
+        }
         .genlab{
             color: rgb(56,56,56);
         }
@@ -330,4 +338,158 @@
         }
         #github img{
             border-radius: 12px;
+        }
+
+        @media (max-width: 420px){
+            h1{
+                font-size: 29px;
+                height: 45px;
+            }
+            nav div{
+                font-size: smaller;
+            }
+            #hh2{
+                font-size: 23px;
+            }
+            #intro{
+                margin: 13px auto;
+                font-size: 12px;
+                line-height: 20px;
+            }
+
+
+
+            #main{
+                margin: 15px auto;
+                flex-direction: column;
+                gap: 6px;
+                align-items: center;
+            }
+            #main img{
+                width: 100px;
+                height: 100px;
+            }
+            #main pre{
+                font-size: 9px;
+            }
+            h2{
+                margin-top: 37px;
+                font-size: 23px;
+            }
+            ol{
+                padding-top: 7px;
+                padding-left: 10%;
+            }
+            ul{
+                padding-top: 7px;
+                padding-left: 10%;
+            }
+            li {
+                font-size: 10px;
+                line-height: 15px;
+            }
+
+
+            .sh2{
+                margin-left: 6%;
+                margin-top: 21px;
+                font-size: 17px;
+            }
+            .container{
+                margin-top: 0px;
+                gap: 7px;
+            }
+            .cards{
+                align-items: center;
+                width: 88%;
+                padding: 4px;
+            }
+            .cards img{
+                height: 78px;
+                width: 90.43px;
+                border-radius: 9px;
+            }
+            .upper{
+                padding-left: 11px;
+                font-size: 15px;
+                margin: 3px 0px;
+                margin-top: 0px;
+            }
+            .lower{
+                padding-left: 11px; 
+                font-size: 8.8px;   
+            }
+
+
+            #formbox{
+                width: 84%;
+                margin-left: 8%;
+                font-size: small;
+                margin-top: 45px;
+            }
+            .sec{
+                gap: 14px;
+                flex-direction: column;
+            }
+            #formbox div div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .textinp{
+                width: 190px;
+            }
+            #middlesec{
+                display: flex;
+                flex-direction: row;
+                
+            }
+            #gender{
+                margin-left: 21px;
+                align-items: flex-start;
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+                width: 99px;
+            }
+            #gender pre{
+                margin-left: 25px;
+                display: block;
+            }
+            #hobby span{
+                width: 83.93px;
+                margin-left: 56px;
+            }
+            #city{
+                width: 97px;
+            }
+            #finalsec{
+                flex-direction: row;
+            }
+            #finalsec input{
+                width: 74px;
+                height: 36px;
+                margin: 0px 5px;
+                font-size: 12px;
+            }
+            footer{
+                margin-top: 35px;
+                gap: 10px;
+            }
+            footer p{
+                font-size: smaller;
+            }
+            footer div{
+                gap: 7px;
+                flex-wrap: wrap;
+            }
+            .soclink{
+                width: auto;
+                gap: 7px;
+                font-size: smaller;
+            }
+            .soclink img{
+                width: 25px;
+                height: 25px;
+            }
         }
